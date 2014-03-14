@@ -5,6 +5,7 @@
 <title>css-filter.js</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/cover.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <div class="site-wrapper">
@@ -15,16 +16,17 @@
           <h3 class="masthead-brand">css-filter.js</h3>
           <ul class="nav masthead-nav">
             <li class="active"><a href="#">Demo</a></li>
-            <li><a href="#">Docs</a></li>
+            <li><a href="api/index.html">Docs</a></li>
           </ul>
         </div>
       </div>
       <div class="inner cover">
-        <h1 class="cover-heading">Cover your page.</h1>
+        <h1 class="cover-heading">cssFilter('#cat').blur('<input type="number" min=0 max=10 id="cover-heading_input" value=10>px')</h1>
         <p class="lead">
           <img id="cat" src="img/heartocat.png" />
         </p>
-        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <p class="lead">The js wrapper of CSS Filter. cssFilter has 10 method that are blur, grayscale, sepia, saturate, hueRotate, invert, opacity, brightness, contrast and dropShadow. It's easy to use with stream like invoking.</p>
+        <p>Thanks for css filter :)</p>
       </div>
       <div class="mastfoot">
         <div class="inner">
@@ -34,6 +36,7 @@
     </div>
   </div>
 </div>
+<script src="js/css-filter.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
