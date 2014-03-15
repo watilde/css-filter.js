@@ -3,5 +3,5 @@
   elem.addEventListener('change', function () {
     cssFilter('#cat').blur(this.value + 'px');
   });
-  cssFilter('#cat').blur('10px');
+  cssFilter('#cat').blur('5px');
 }());
