@@ -144,8 +144,7 @@ var cssFilter = function (selectors, filters) {
   klass.prototype.sepia = function (val) {
     var length = val || '0%';
     this.filters['sepia'] = length;
-    this.do();
-    return this;
+    return this.do();
   };
 
   /**
