@@ -100,7 +100,7 @@ var cssFilter = function (selectors, filters) {
   klass.prototype.hueRotate = function (val) {
     var length = val || '0deg';
     this.filters['hue-rotate'] = length;
-    return this.exec();
+    return this.do();
   };
 
   /**
@@ -133,7 +133,7 @@ var cssFilter = function (selectors, filters) {
   klass.prototype.saturate = function (val) {
     var length = val || '0%';
     this.filters['saturate'] = length;
-    return this.exec();
+    return this.do();
   };
 
   /**
