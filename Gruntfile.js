@@ -9,13 +9,22 @@ module.exports = function(grunt) {
         version: '<%= pkg.version %>',
         url: '<%= pkg.homepage %>',
         options: {
-          paths: 'js',
+          paths: 'src',
           outdir: 'api'
         }
       }
+    },
+    jshint: {
+      options: {
+        browser: true,
+        sub: true,
+      },
+      all: ['Gruntfile.js', 'src/css-filter.js']
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-yuidoc');
-  grunt.registerTask('default', ['yuidoc']);
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.registerTask('test', ['jshint', 'yuidoc']);
+  grunt.registerTask('default', ['test']);
 };

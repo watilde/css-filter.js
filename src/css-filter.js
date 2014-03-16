@@ -23,7 +23,7 @@ var cssFilter = function (selectors, filters) {
     /** @property filters */
     this.filters = filters || {};
     if (filters) return this.do();
-  }
+  };
 
   /**
    * @method getFilter

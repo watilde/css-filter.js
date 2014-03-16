@@ -6,8 +6,8 @@
         "url": "https://github.com/watilde/css-filter.js"
     },
     "files": {
-        "js/css-filter.js": {
-            "name": "js/css-filter.js",
+        "src/css-filter.js": {
+            "name": "src/css-filter.js",
             "modules": {},
             "classes": {
                 "cssFilter": 1,
@@ -27,7 +27,7 @@
             "extensions": [],
             "plugin_for": [],
             "extension_for": [],
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 8
         },
         "klass": {
@@ -38,7 +38,7 @@
             "extensions": [],
             "plugin_for": [],
             "extension_for": [],
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 12,
             "is_constructor": 1,
             "params": [
@@ -61,7 +61,7 @@
     },
     "classitems": [
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 1,
             "author": "Daijiro Wachi <daijiro.wachi@gmail.com>",
             "version": "0.0.1",
@@ -69,17 +69,17 @@
             "class": "cssFilter"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 20,
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 23,
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 28,
             "itemtype": "method",
             "name": "getFilter",
@@ -90,7 +90,7 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 40,
             "itemtype": "method",
             "name": "blur",
@@ -108,7 +108,7 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 51,
             "itemtype": "method",
             "name": "brightness",
@@ -126,7 +126,7 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 62,
             "itemtype": "method",
             "name": "contrast",
@@ -144,7 +144,7 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 73,
             "itemtype": "method",
             "name": "dropShadow",
@@ -162,7 +162,7 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 84,
             "itemtype": "method",
             "name": "",
@@ -180,7 +180,7 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 95,
             "itemtype": "method",
             "name": "hueRotate",
@@ -198,7 +198,7 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 106,
             "itemtype": "method",
             "name": "invert",
@@ -216,7 +216,7 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 117,
             "itemtype": "method",
             "name": "opacity",
@@ -234,7 +234,7 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 128,
             "itemtype": "method",
             "name": "saturate",
@@ -252,7 +252,7 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
+            "file": "src/css-filter.js",
             "line": 139,
             "itemtype": "method",
             "name": "sepia",
@@ -270,8 +270,8 @@
             "class": "klass"
         },
         {
-            "file": "js/css-filter.js",
-            "line": 151,
+            "file": "src/css-filter.js",
+            "line": 150,
             "itemtype": "method",
             "name": "do",
             "return": {
@@ -284,27 +284,27 @@
     "warnings": [
         {
             "message": "unknown tag: version",
-            "line": " js/css-filter.js:1"
+            "line": " src/css-filter.js:1"
         },
         {
             "message": "unknown tag: license",
-            "line": " js/css-filter.js:1"
+            "line": " src/css-filter.js:1"
         },
         {
             "message": "replacing incorrect tag: params with param",
-            "line": " js/css-filter.js:12"
+            "line": " src/css-filter.js:12"
         },
         {
             "message": "Missing item type",
-            "line": " js/css-filter.js:1"
+            "line": " src/css-filter.js:1"
         },
         {
             "message": "Missing item type",
-            "line": " js/css-filter.js:20"
+            "line": " src/css-filter.js:20"
         },
         {
             "message": "Missing item type",
-            "line": " js/css-filter.js:23"
+            "line": " src/css-filter.js:23"
         }
     ]
 }
