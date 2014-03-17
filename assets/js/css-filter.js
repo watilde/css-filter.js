@@ -23,18 +23,20 @@ var cssFilter = function (selectors, filters) {
     /** @property filters */
     this.filters = filters || {};
     if (filters) return this.do();
-  }
+  };
 
   /**
    * @method getFilter
    * @return {String} Join filter objects
    */
   klass.prototype.getFilter = function () {
-    var filters = '';
+    var filter = '';
     for (var key in this.filters) {
-      filters += key + '(' + this.filters[key] + ') ';
+      filter += key + '(' + this.filters[key] + ')';
+      filter += ' ';
     }
-    return filters;
+    filter = filter.slice(0, -1);
+    return filter;
   };
 
   /**
@@ -144,8 +146,7 @@ var cssFilter = function (selectors, filters) {
   klass.prototype.sepia = function (val) {
     var length = val || '0%';
     this.filters['sepia'] = length;
-    this.do();
-    return this;
+    return this.do();
   };
 
   /**
