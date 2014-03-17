@@ -30,11 +30,13 @@ var cssFilter = function (selectors, filters) {
    * @return {String} Join filter objects
    */
   klass.prototype.getFilter = function () {
-    var filters = '';
+    var filter = '';
     for (var key in this.filters) {
-      filters += key + '(' + this.filters[key] + ') ';
+      filter += key + '(' + this.filters[key] + ')';
+      filter += ' ';
     }
-    return filters;
+    filter = filter.slice(0, -1);
+    return filter;
   };
 
   /**
