@@ -91,7 +91,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 40,
+            "line": 42,
             "itemtype": "method",
             "name": "blur",
             "params": [
@@ -109,7 +109,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 51,
+            "line": 53,
             "itemtype": "method",
             "name": "brightness",
             "params": [
@@ -127,7 +127,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 62,
+            "line": 64,
             "itemtype": "method",
             "name": "contrast",
             "params": [
@@ -145,7 +145,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 73,
+            "line": 75,
             "itemtype": "method",
             "name": "dropShadow",
             "params": [
@@ -163,7 +163,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 84,
+            "line": 86,
             "itemtype": "method",
             "name": "",
             "params": [
@@ -181,7 +181,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 95,
+            "line": 97,
             "itemtype": "method",
             "name": "hueRotate",
             "params": [
@@ -199,7 +199,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 106,
+            "line": 108,
             "itemtype": "method",
             "name": "invert",
             "params": [
@@ -217,7 +217,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 117,
+            "line": 119,
             "itemtype": "method",
             "name": "opacity",
             "params": [
@@ -235,7 +235,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 128,
+            "line": 130,
             "itemtype": "method",
             "name": "saturate",
             "params": [
@@ -253,7 +253,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 139,
+            "line": 141,
             "itemtype": "method",
             "name": "sepia",
             "params": [
@@ -271,7 +271,7 @@
         },
         {
             "file": "src/css-filter.js",
-            "line": 150,
+            "line": 152,
             "itemtype": "method",
             "name": "do",
             "return": {
