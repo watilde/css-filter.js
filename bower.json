@@ -1,0 +1,21 @@
+{
+  "name": "css-filter.js",
+  "version": "0.0.3",
+  "homepage": "http://watilde.github.io/css-filter.js/",
+  "authors": [
+    "Daijiro Wachi <daijiro.wachi@gmail.com>"
+  ],
+  "description": "The js wrapper of CSS Filter",
+  "main": "dest/assets/js/css-filter.js",
+  "keywords": [
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
