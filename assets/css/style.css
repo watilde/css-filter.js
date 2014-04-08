@@ -1,6 +1,9 @@
 #cover-heading_input {
   height: 36px;
-  color: #000;
+  color: #e1db74;
   font-size: 26px;
   width: 56px;
+  border: 1px solid #fff;
+  background-color: #333;
+  text-align: center;
 }
